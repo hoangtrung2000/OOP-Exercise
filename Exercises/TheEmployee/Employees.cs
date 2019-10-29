@@ -47,9 +47,10 @@ namespace TheEmployee
         {
             return salary * 12;
         }
-        public int raiseSalary(int percent)
+        public double raiseSalary(int percent)
         {
-            salary = salary + percent / 100;
+            int bonus = (salary * percent) / 100;
+            salary = salary + bonus;
             return salary;
         }
         public override string ToString()
