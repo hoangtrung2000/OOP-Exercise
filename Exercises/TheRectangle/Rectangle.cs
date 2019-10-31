@@ -46,7 +46,7 @@ namespace TheRectangle
         }
         public override string ToString()
         {
-            return String.Format("Rectangle[length = {0} , width = {0}", length, width);
+            return String.Format("Rectangle[length = {0} , width = {1}", length, width);
             //return base.ToString();
         }
     }
